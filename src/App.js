@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <>
         <Counter />
-        <Counter />;
+        <Counter />
       </>
     );
   }

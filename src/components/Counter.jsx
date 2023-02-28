@@ -14,7 +14,7 @@ class Counter extends Component {
   };
 
   onReset = () => {
-    this.setState({ counter: (this.state.counter = 0) });
+    this.setState({ counter: 0 });
   };
 
   render() {
